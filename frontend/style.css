@@ -1,0 +1,37 @@
+body {
+    background-color: blanchedalmond;
+    text-align: center;
+}
+div#container div {
+    border: 1px solid rgb(104, 53, 53);
+    color: rgb(104, 53, 53);
+    width: 200px;
+    display: inline-block;
+    margin: 10px 5px;
+    vertical-align: middle;
+    padding: 5px 5px;
+    user-select: none;
+}
+div#container div span:hover {
+    background-color: rgb(104, 53, 53);
+    color: blanchedalmond;
+}
+div#container div span {
+    float: right;
+    cursor: pointer;
+    border: 1px solid rgb(104, 53, 53);
+    padding: 0px 5px;
+    border-radius: 6px;
+    background-color: rgb(230, 205, 174);
+}
+div#container div span:active {
+    background-color: rgb(221, 50, 50);
+    color: blanchedalmond;
+}
+code.hljs {
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px black;
+    text-align: left;
+    width: 600px;
+}
